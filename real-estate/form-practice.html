@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    
+        input:focus:invalid{
+        color: red;
+        border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div>
+            <label for="user_name">User Name</label>
+            <input type="email" name="user_name" id="user_name" minlength="2">
+        </div>
+        <div>
+            <label for="user_pass">User Password</label>
+            <input for="password" id="user_pass" name="user_pass" minlength="2" required>
+        </div>
+        <div>
+            <button type="submit">Log in</button>
+        </div>
+
+        <fieldset>
+            <legend>Personal information</legend>
+            <input type="text" placeholder="Enter your name">
+            <input type="age" placeholder="Enter your age">
+        </fieldset>
+    </form>
+</body>
+</html>

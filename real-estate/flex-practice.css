@@ -1,0 +1,15 @@
+.flex-gus{ /*parent   */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+.flex-nicks{
+        background-color: yellowgreen;
+        width: 200px;
+}
+
+/*   */

@@ -1,3 +1,35 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/*global*/
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul{
+
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width: 100%;
+}
+/*parent   */
+
 .site-header{
         background-image: url(./img/announcement6.jpg);
         background-position: center center;
@@ -7,3 +39,69 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
     }
+
+/*utiliites   */
+
+.container{
+    width:   95%;
+    margin:  10px 10px;
+    padding: 10px;
+}
+
+
+.about-flex{ /*parent   */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    height: auto;
+    padding: 10px;
+}
+
+.btn-details{
+        display: block;
+        background-color: chocolate;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        width: 90%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: auto auto;
+}
+
+.text-price{
+    color: green;
+    font-weight: bold;
+}
+
+/*utiliites   */
+
+.houses-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.houses-item{
+    width: auto;
+    margin: 5px;
+    background-color: rgb(140, 142, 144);
+    padding: 2px;
+
+}
+
+.houses-icon{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+}
+
+
+.houses-item-text {
+
+}
