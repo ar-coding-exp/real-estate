@@ -19,6 +19,10 @@ ul{
 
 }
 
+h3{
+margin: 10px 0px;
+}
+
 li{
     list-style-type: none;
     display: flex;
@@ -27,6 +31,7 @@ li{
 
 img{
     max-width: 100%;
+    margin-bottom: 15px;
 }
 /*parent   */
 
@@ -102,6 +107,67 @@ img{
 }
 
 
+
 .houses-item-text {
 
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-container img{
+    margin-right: 20px;
+}
+
+/*tablet view*/
+
+@media((min-width:601px) and (max-width:768px)){
+
+    .about-flex{
+    flex-direction: column;
+    margin-bottom: 15px;
+    }
+    .about-flex div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+   .about-flex img{
+    width: 30%;
+
+    }
+
+    .houses-container{
+    flex-direction: column;
+    }
+    .houses-item{
+    margin: 10px 0px; 
+    }
+}
+
+/*phone view*/
+
+@media((max-width:600px)){
+
+    .about-flex{
+    flex-direction: column;
+    text-align: justify;
+    }
+    .about-flex div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+   .about-flex img{
+    width: 40%;
+
+    }
+    .houses-container{
+    flex-direction: column;
+    }
+    .houses-item{
+    margin: 10px 0px; 
+    }
 }
